@@ -1,0 +1,1 @@
+web: cd fastapi-mlops-template && poetry run uvicorn fastapi_mlops_template.main:app --host 0.0.0.0 --port $PORT
