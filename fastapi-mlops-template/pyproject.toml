@@ -1,0 +1,22 @@
+[project]
+name = "fastapi-mlops-template"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Muhammad Farhan Aslam",email = "farhanmehar422538@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.121.3,<0.122.0)",
+    "pydantic (>=2.12.4,<3.0.0)",
+    "uvicorn[standard] (>=0.38.0,<0.39.0)"
+]
+
+[tool.poetry]
+packages = [{include = "fastapi_mlops_template", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

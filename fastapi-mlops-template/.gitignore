@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / dynamically-loaded files
+*.pyc
+*~$
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs
+# .venv (if created in the project root)
+
+# Environments
+venv/
+env/
+.venv/
+.env
+
+# Tests
+.pytest_cache/
+.tox/
+
+# Editors/IDE specific files
+.vscode/
+.idea/
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook related
+.ipynb_checkpoints
+
+# Miscellaneous
+*tmp
+*temp
